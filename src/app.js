@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends Component {
-  render() {
-    return <div>Yo! MTV Raps</div>;
-  }
-}
+import IndecisionApp from './components/IndecisionApp';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+    
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
