@@ -1,5 +1,2 @@
-$brand-color: purple;
-
-* {
-  color: $brand-color;
-}
+@import './base/_base';
+@import './base/_header';

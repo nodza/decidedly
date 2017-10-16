@@ -68,8 +68,8 @@ export default class IndecisionApp extends Component {
   
 
   render() {
-    const title ='NextActionator 5000';
-    const subtitle = 'Push the button and let the app decide';
+    const title ='Do-Lette';
+    const subtitle = 'What should I do next?';
 
     return (
       <div>
