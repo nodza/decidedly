@@ -1,0 +1,25 @@
+.widget {
+  background: white;
+  margin-bottom: $xlarge-size;
+}
+
+.widget-text {
+  color: $moody-gray;
+  margin: 0;
+  padding: $large-size;
+  text-align: center;
+  border-bottom: $overcast-gray;
+}
+
+.widget-header {
+  background: $dada-gray;
+  color: $battleship-gray;
+  display: flex;
+  justify-content: space-between;
+  padding: $medium-size;
+  border-bottom: solid 0.3rem $overcast-gray;
+}
+
+.widget-header__title {
+  margin: 0;
+}

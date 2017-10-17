@@ -68,16 +68,18 @@ export default class IndecisionApp extends Component {
   
 
   render() {
-    const title ='Do-Lette';
-    const subtitle = 'What should I do next?';
+    const title ='Decide.It';
+    const subtitle = 'Leave your next action to chance';
 
     return (
       <div>
         <Header title={title} subtitle={subtitle} />
         <div className="container">
           <Action hasOptions={this.state.options.length > 0} handlePick={this.handlePick} />
-          <Options options={this.state.options} handleDeleteOptions={this.handleDeleteOptions} handleDeleteOption={this.handleDeleteOption} />
-          <AddOption handleAddOption={this.handleAddOption} />
+          <div className="widget">
+            <Options options={this.state.options} handleDeleteOptions={this.handleDeleteOptions} handleDeleteOption={this.handleDeleteOption} />
+            <AddOption handleAddOption={this.handleAddOption} />
+          </div>
         </div>
         <OptionModal
           selectedOption={this.state.selectedOption}

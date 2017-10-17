@@ -1,0 +1,22 @@
+.add-option-error {
+  color: $warning-red;
+  font-size: $medium-size;
+  margin: 0;
+  text-align: center;
+  padding: 1.2rem;
+  background: #ffe8ec;
+}
+
+.add-option {
+  display: flex;
+  padding: $small-size;
+}
+
+.add-option__input {
+  flex-grow: 1;
+  border: none;
+  background: $light-bg;
+  margin-right: $small-size;
+  padding: $small-size;
+  // border-bottom: solid 0.3rem $overcast-gray;
+}
