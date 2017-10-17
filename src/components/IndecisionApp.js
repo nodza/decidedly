@@ -68,8 +68,8 @@ export default class IndecisionApp extends Component {
   
 
   render() {
-    const title ='Decide.It';
-    const subtitle = 'Leave your next action to chance';
+    const title ='Decided.ly';
+    const subtitle = 'Leave your next decision to chance';
 
     return (
       <div>
